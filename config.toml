@@ -1,0 +1,35 @@
+baseURL = "https://kappq.github.io"
+languageCode = "en-us"
+title = "Kappa's Blog"
+theme = "PaperMod"
+
+[params]
+defaultTheme = "auto"
+showTOC = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archive"
+url = "/archives/"
+weight = 30
+
+[[menu.main]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/kappq"
+weight = 40
